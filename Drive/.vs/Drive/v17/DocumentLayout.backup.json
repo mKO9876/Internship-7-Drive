@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D4CD4EE-5405-4FBB-A059-B0726107204C}|Drive_Presentation\\Drive.UI.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive_presentation\\drive.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3D4CD4EE-5405-4FBB-A059-B0726107204C}|Drive_Presentation\\Drive.UI.csproj|solutionrelative:drive_presentation\\drive.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive.data\\drive.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|solutionrelative:drive.data\\drive.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D1C25B-6662-46C1-9061-6854A82D1AE5}|Drive_Domain\\Drive.Domain.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive_domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D1C25B-6662-46C1-9061-6854A82D1AE5}|Drive_Domain\\Drive.Domain.csproj|solutionrelative:drive_domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|solutionrelative:drive.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D4CD4EE-5405-4FBB-A059-B0726107204C}|Drive_Presentation\\Drive.UI.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive_presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D4CD4EE-5405-4FBB-A059-B0726107204C}|Drive_Presentation\\Drive.UI.csproj|solutionrelative:drive_presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Drive.UI.csproj",
+              "Title": "Drive.UI",
               "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\Drive.UI.csproj",
               "RelativeDocumentMoniker": "Drive_Presentation\\Drive.UI.csproj",
               "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\Drive.UI.csproj",
               "RelativeToolTip": "Drive_Presentation\\Drive.UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-28T19:58:56.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Drive_Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Class1.cs",
-              "RelativeToolTip": "Drive_Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T19:48:44.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Drive.Data.csproj",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj",
-              "RelativeDocumentMoniker": "Drive.Data\\Drive.Data.csproj",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj",
-              "RelativeToolTip": "Drive.Data\\Drive.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-28T22:17:50.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "Drive.Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Class1.cs",
-              "RelativeToolTip": "Drive.Data\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T21:41:24.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Drive_Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\Program.cs",
-              "RelativeToolTip": "Drive_Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T19:46:51.622Z",
+              "WhenOpened": "2024-12-29T18:44:57.662Z",
               "EditorCaption": ""
             }
           ]
