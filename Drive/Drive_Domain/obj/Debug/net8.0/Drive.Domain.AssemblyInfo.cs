@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Drive.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a822d6c9a77e10162ba09222cd6131f74f3febfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30831f22987872cdcd517116256798a26a45b111")]
 [assembly: System.Reflection.AssemblyProductAttribute("Drive.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Drive.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

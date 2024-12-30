@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionString>
+		<add name="Drive" 
+			 connectionString="Host=127.0.0.1;Port=5432;Database=DriveDemo;Username=postgres;Password=Password28;"
+			 providerName="Npgsql"/>
+	</connectionString>
+</configuration>
