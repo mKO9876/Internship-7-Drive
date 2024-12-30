@@ -1,16 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
+﻿// Drive.Data/DriveContext.cs (Your DbContext file)
+using Microsoft.EntityFrameworkCore;
 using Drive.Data.Entities.Models;
-using Microsoft.Extensions.Configuration;
 using Drive.Data.Seeds;
-
 
 namespace Drive.Data
 {
     public class DriveContext : DbContext
     {
         public DriveContext(DbContextOptions<DriveContext> options) : base(options) { }
-
+        public DriveContext() : base() { }
 
         public DbSet<Users> Users => Set<Users>();
         public DbSet<Directories> Diretories => Set<Directories>();
@@ -19,25 +17,18 @@ namespace Drive.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //ovo je za veze
+            // Your fluent API configuration
             modelBuilder.Entity<UsersFiles>().HasKey(uf => new { uf.UserId, uf.FileId });
-
             modelBuilder.Entity<DirectoriesFiles>().HasKey(uf => new { uf.DirectoryId, uf.FileId });
-            
             modelBuilder.Entity<Comments>().HasKey(c => c.CommentId);
-
             modelBuilder.Entity<Directories>().HasKey(c => c.DirectoryId);
-
             modelBuilder.Entity<Files>().HasKey(c => c.FileId);
-
             modelBuilder.Entity<Users>().HasKey(c => c.UserId);
 
-
             modelBuilder.Entity<Comments>()
-            .HasOne(c => c.User)
-            .WithMany(u => u.Comments)
-            .HasForeignKey(c => c.UserId);
-
+               .HasOne(c => c.User)
+               .WithMany(u => u.Comments)
+               .HasForeignKey(c => c.UserId);
 
             modelBuilder.Entity<Directories>()
             .HasOne(uf => uf.User)
@@ -67,50 +58,5 @@ namespace Drive.Data
             DatabaseSeeder.Seed(modelBuilder);
             base.OnModelCreating(modelBuilder);
         }
-
-        public class DriveContextFactory : IDesignTimeDbContextFactory<DriveContext>
-        {
-            public DriveContext CreateDbContext(string[] args)
-            {
-                var config = new ConfigurationBuilder()
-                    .SetBasePath(Directory.GetCurrentDirectory())
-                    .AddXmlFile("app.config.xml")
-                    .Build();
-                //.AddXmlFile("app.config.xml", optional: false, reloadOnChange: true)
-
-                // Get the connection string from the config
-                var connectionString = config.GetConnectionString("DriveConnectionString");
-                Console.WriteLine(config);
-
-
-                if (string.IsNullOrEmpty(connectionString))
-                {
-                    throw new InvalidOperationException("The connection string 'DriveConnectionString' is missing in the config file.");
-                }
-
-
-                var options = new DbContextOptionsBuilder<DriveContext>()
-                    .UseNpgsql(connectionString)
-                    .Options;
-
-                return new DriveContext(options);
-            }
-
-
-
-            private static IConfiguration LoadAppConfig()
-            {
-                var config = new ConfigurationBuilder()
-                    .SetBasePath(Directory.GetCurrentDirectory())
-                    .AddXmlFile("App.config.xml")  // Specify App.config.xml
-                    .Build();
-
-                return config;
-            }
-        }
-
-    
-
     }
 }
-

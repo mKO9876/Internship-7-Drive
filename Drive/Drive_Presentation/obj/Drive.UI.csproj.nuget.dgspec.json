@@ -4,14 +4,14 @@
     "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\Drive.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj": {
+    "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Drive.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj",
-        "projectName": "Drive.Data",
-        "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj",
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Drive.Domain.csproj",
+        "projectName": "Drive.Domain",
+        "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Drive.Domain.csproj",
         "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\obj\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,30 +44,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Xml": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -112,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj": {
-                "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Drive.Data.csproj"
+              "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Drive.Domain.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Domain\\Drive.Domain.csproj"
               }
             }
           }

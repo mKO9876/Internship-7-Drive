@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" ?>
 <configuration>
 	<connectionStrings>
-		<add name="DriveConnectionString"
-             connectionString="Host=localhost;Port=5432;Database=DriveDemo;Username=postgres;Password=Password28"
-             providerName="Npgsql" />
+		<add key="ConnectionStrings:DriveConnectionString" value="Host=127.0.0.1;Port=5432;Database=DriveDemo;Username=postgres;Password=Password28" />
 	</connectionStrings>
 </configuration>
-

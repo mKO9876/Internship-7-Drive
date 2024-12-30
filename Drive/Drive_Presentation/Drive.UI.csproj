@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Drive.Data\Drive.Data.csproj" />
+    <ProjectReference Include="..\Drive_Domain\Drive.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

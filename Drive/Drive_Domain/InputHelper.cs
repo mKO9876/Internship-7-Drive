@@ -1,4 +1,6 @@
-﻿namespace Drive.UI
+﻿using System.Text.RegularExpressions;
+
+namespace Drive.Domain
 {
     public static class InputHelper
     {
@@ -17,14 +19,21 @@
 
         public static string CheckEmail(string text)
         {
+            string pattern = @"^[^@]+@[a-zA-Z]{2,}\.[a-zA-Z]{3,}$";
             string email;
-            do
+
+            while (true)
             {
                 email = CheckUserInput(text);
-                if (!email.Contains('@') || email.Length < 3) Console.WriteLine("Input didn't fill requirement: min. length = 3, has to contain @.");
-            } while (!email.Contains('@') || email.Length < 3);
 
-            return email;
+                if (Regex.IsMatch(email, pattern))
+                {
+                    Console.WriteLine("Valid email format.");
+                    return email;
+                }
+
+                else Console.WriteLine("Invalid email format.");
+            }
         }
 
         public static string CheckPassword(string text)
@@ -33,7 +42,7 @@
             do
             {
                 password = CheckUserInput(text);
-                if (password.Length < 3) Console.WriteLine("Password needs to have at least 8 characters");
+                if (password.Length < 8) Console.WriteLine("Password needs to have at least 8 characters");
             } while (password.Length < 8);
             return password;
         }
