@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive.data\\seeds\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|solutionrelative:drive.data\\seeds\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\drive\\drive.data\\drivecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFCCA989-9255-4E8D-A83D-1BA90ED07B71}|Drive.Data\\Drive.Data.csproj|solutionrelative:drive.data\\drivecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\app.config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Drive_Presentation\\app.config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Seeds\\DatabaseSeeder.cs",
-              "RelativeDocumentMoniker": "Drive.Data\\Seeds\\DatabaseSeeder.cs",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\Seeds\\DatabaseSeeder.cs",
-              "RelativeToolTip": "Drive.Data\\Seeds\\DatabaseSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:10:18.492Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "app.config.xml",
+              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\app.config.xml",
+              "RelativeDocumentMoniker": "Drive_Presentation\\app.config.xml",
+              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive_Presentation\\app.config.xml",
+              "RelativeToolTip": "Drive_Presentation\\app.config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-30T13:58:18.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DriveContext.cs",
               "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\DriveContext.cs",
               "RelativeDocumentMoniker": "Drive.Data\\DriveContext.cs",
               "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\Drive\\Drive.Data\\DriveContext.cs",
               "RelativeToolTip": "Drive.Data\\DriveContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv1oAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:41:33.589Z",
+              "WhenOpened": "2024-12-30T13:34:22.224Z",
               "EditorCaption": ""
             }
           ]

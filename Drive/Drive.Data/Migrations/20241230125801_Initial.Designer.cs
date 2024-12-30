@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Drive.Data.Migrations
 {
     [DbContext(typeof(DriveContext))]
-    [Migration("20241230014029_NewMigration")]
-    partial class NewMigration
+    [Migration("20241230125801_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -147,56 +147,56 @@ namespace Drive.Data.Migrations
                         new
                         {
                             DirectoryId = 1,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3030),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(85),
                             DirectoryName = "Documents",
                             UserId = 1
                         },
                         new
                         {
                             DirectoryId = 2,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3442),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(907),
                             DirectoryName = "Photos",
                             UserId = 1
                         },
                         new
                         {
                             DirectoryId = 3,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3443),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(908),
                             DirectoryName = "Music",
                             UserId = 2
                         },
                         new
                         {
                             DirectoryId = 4,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3444),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(910),
                             DirectoryName = "Videos",
                             UserId = 2
                         },
                         new
                         {
                             DirectoryId = 5,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3445),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(911),
                             DirectoryName = "Projects",
                             UserId = 3
                         },
                         new
                         {
                             DirectoryId = 6,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3446),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(912),
                             DirectoryName = "Downloads",
                             UserId = 3
                         },
                         new
                         {
                             DirectoryId = 7,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3446),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(913),
                             DirectoryName = "Backups",
                             UserId = 4
                         },
                         new
                         {
                             DirectoryId = 8,
-                            CreatedDate = new DateTime(2024, 12, 30, 1, 40, 29, 373, DateTimeKind.Utc).AddTicks(3472),
+                            CreatedDate = new DateTime(2024, 12, 30, 12, 58, 0, 163, DateTimeKind.Utc).AddTicks(938),
                             DirectoryName = "Archives",
                             UserId = 4
                         });
@@ -354,7 +354,7 @@ namespace Drive.Data.Migrations
                         {
                             UserId = 1,
                             Email = "cmurrells13@xrea.com",
-                            Password = "qF3cz$vma<cr"
+                            Password = "qF3czvmaacr"
                         },
                         new
                         {
@@ -372,7 +372,7 @@ namespace Drive.Data.Migrations
                         {
                             UserId = 4,
                             Email = "voborne2@artisteer.com",
-                            Password = "eO4@rIPc"
+                            Password = "eO4oorIPc"
                         },
                         new
                         {

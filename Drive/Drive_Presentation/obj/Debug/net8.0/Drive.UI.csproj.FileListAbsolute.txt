@@ -131,3 +131,4 @@ C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\Drive\Drive_Presentation\
 C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\Drive\Drive_Presentation\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\Drive\Drive_Presentation\bin\Debug\net8.0\Drive.Data.dll
 C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\Drive\Drive_Presentation\bin\Debug\net8.0\Drive.Data.pdb
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\Drive\Drive_Presentation\bin\Debug\net8.0\app.config.xml

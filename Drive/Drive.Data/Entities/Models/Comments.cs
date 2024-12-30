@@ -2,9 +2,9 @@
 {
     public class Comments
     {
-        public Comments(string commentText) {
+        public Comments(string commentText, DateTime commentingDate) {
             CommentText = commentText;
-            CommentingDate = DateTime.UtcNow;
+            CommentingDate = commentingDate;
         }
         public int CommentId { get; set; }
         public int UserId { get; set; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Drive.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30831f22987872cdcd517116256798a26a45b111")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53857c60e49abd0611d38d96951242bde5831d92")]
 [assembly: System.Reflection.AssemblyProductAttribute("Drive.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Drive.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

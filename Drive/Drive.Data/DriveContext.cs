@@ -9,23 +9,13 @@ namespace Drive.Data
 {
     public class DriveContext : DbContext
     {
-        public DriveContext(DbContextOptions options) : base(options)
-        {
-        }
+        public DriveContext(DbContextOptions<DriveContext> options) : base(options) { }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    if (!optionsBuilder.IsConfigured)
-        //    {
-        //        var connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-        //        optionsBuilder.UseNpgsql(connectionString);
-        //    }
-        //}
 
-        public DbSet<Users> User => Set<Users>();
-        public DbSet<Directories> Diretory => Set<Directories>();
-        public DbSet<Files> File => Set<Files>();
-        public DbSet<Comments> Comment => Set<Comments>();
+        public DbSet<Users> Users => Set<Users>();
+        public DbSet<Directories> Diretories => Set<Directories>();
+        public DbSet<Files> Files => Set<Files>();
+        public DbSet<Comments> Comments => Set<Comments>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -74,7 +64,7 @@ namespace Drive.Data
             .WithMany(f => f.DirectoriesFiles)
             .HasForeignKey(uf => uf.FileId);
 
-            DatabaseSeeder.Seed(modelBuilder); ;
+            DatabaseSeeder.Seed(modelBuilder);
             base.OnModelCreating(modelBuilder);
         }
 
@@ -84,12 +74,20 @@ namespace Drive.Data
             {
                 var config = new ConfigurationBuilder()
                     .SetBasePath(Directory.GetCurrentDirectory())
-                    .AddXmlFile("App.config.xml")
+                    .AddXmlFile("app.config.xml")
                     .Build();
+                //.AddXmlFile("app.config.xml", optional: false, reloadOnChange: true)
 
-                config.Providers
-                    .First()
-                    .TryGet("connectionString:add:Drive:connectionString", out var connectionString);
+                // Get the connection string from the config
+                var connectionString = config.GetConnectionString("DriveConnectionString");
+                Console.WriteLine(config);
+
+
+                if (string.IsNullOrEmpty(connectionString))
+                {
+                    throw new InvalidOperationException("The connection string 'DriveConnectionString' is missing in the config file.");
+                }
+
 
                 var options = new DbContextOptionsBuilder<DriveContext>()
                     .UseNpgsql(connectionString)
@@ -97,6 +95,8 @@ namespace Drive.Data
 
                 return new DriveContext(options);
             }
+
+
 
             private static IConfiguration LoadAppConfig()
             {

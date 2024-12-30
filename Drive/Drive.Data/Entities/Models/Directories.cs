@@ -2,10 +2,10 @@
 {
     public class Directories
     {
-        public Directories(string directoryName)
+        public Directories(string directoryName, DateTime createdDate)
         {
             DirectoryName = directoryName;
-            CreatedDate = DateTime.UtcNow;
+            CreatedDate = createdDate;
         }
         public int DirectoryId { get; set; }
         public int UserId { get; set; }
