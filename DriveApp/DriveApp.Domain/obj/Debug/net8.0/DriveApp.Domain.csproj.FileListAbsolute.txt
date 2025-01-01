@@ -1,0 +1,12 @@
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\bin\Debug\net8.0\DriveApp.Domain.deps.json
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\bin\Debug\net8.0\DriveApp.Domain.dll
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\bin\Debug\net8.0\DriveApp.Domain.pdb
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.AssemblyInfoInputs.cache
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.AssemblyInfo.cs
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.sourcelink.json
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.dll
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\refint\DriveApp.Domain.dll
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\DriveApp.Domain.pdb
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Domain\obj\Debug\net8.0\ref\DriveApp.Domain.dll
