@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DriveApp.Domain\DriveApp.Domain.csproj" />
-    <ProjectReference Include="..\DriveApp.Info\DriveApp.Info.csproj" />
+    <ProjectReference Include="..\DriveApp.Data\DriveApp.Data.csproj" />
   </ItemGroup>
 
 </Project>

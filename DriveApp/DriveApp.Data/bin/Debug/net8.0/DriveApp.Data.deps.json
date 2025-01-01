@@ -9,7 +9,6 @@
       "DriveApp.Data/1.0.0": {
         "dependencies": {
           "DriveApp.Domain": "1.0.0",
-          "DriveApp.UI": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
           "Microsoft.Extensions.Configuration.Xml": "9.0.0",
@@ -788,6 +787,7 @@
             "fileVersion": "1.0.0.0"
           }
         }
+<<<<<<< HEAD
       },
       "DriveApp.Info/1.0.0": {
         "dependencies": {
@@ -814,6 +814,8 @@
             "fileVersion": "1.0.0.0"
           }
         }
+=======
+>>>>>>> parent of 120842e (Can't put project reference)
       }
     }
   },
@@ -1205,6 +1207,7 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+<<<<<<< HEAD
     },
     "DriveApp.Info/1.0.0": {
       "type": "project",
@@ -1215,6 +1218,8 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+=======
+>>>>>>> parent of 120842e (Can't put project reference)
     }
   }
 }

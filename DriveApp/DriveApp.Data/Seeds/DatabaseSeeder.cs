@@ -1,10 +1,13 @@
-﻿using DriveApp.Info.Entities.Models;
+﻿using DriveApp.Data.Entities.Models;
 using Microsoft.EntityFrameworkCore;
-namespace DriveApp.Info.Seeds
+namespace DriveApp.Data.Seeds
 {
 
     public static class DatabaseSeeder
     {
+        public static DateTime ToUtc(DateTime date) {
+            Console.WriteLine(DateTime.SpecifyKind(date, DateTimeKind.Utc));
+            return DateTime.SpecifyKind(date, DateTimeKind.Utc); }
         public static void Seed(ModelBuilder builder)
         {
             builder.Entity<Users>().HasData(
@@ -19,37 +22,37 @@ namespace DriveApp.Info.Seeds
             );
 
             builder.Entity<Directories>().HasData(
-            new Directories("Documents", new DateTime(2023, 1, 10))
+            new Directories("Documents", ToUtc(new DateTime(2023, 1, 10)))
             {
                 DirectoryId = 1,
                 UserId = 1
             },
-            new Directories("Photos", new DateTime(2023, 1, 10))
+            new Directories("Photos", ToUtc(new DateTime(2023, 1, 10)))
             {
                 DirectoryId = 2,
                 UserId = 1
             },
-            new Directories("Music", new DateTime(2023, 1, 10))
+            new Directories("Music", ToUtc(new DateTime(2023, 1, 10)))
             {
                 DirectoryId = 3,
                 UserId = 2
             },
-            new Directories("Videos", new DateTime(2023, 1, 10))
+            new Directories("Videos", ToUtc(new DateTime(2024, 1, 1)))
             {
                 DirectoryId = 4,
                 UserId = 2
             },
-            new Directories("Projects", new DateTime(2023, 1, 10))
+            new Directories("Projects", ToUtc(new DateTime(2023, 1, 10)))
             {
                 DirectoryId = 5,
                 UserId = 3
             },
-            new Directories("Downloads", new DateTime(2023, 1, 10))
+            new Directories("Downloads", ToUtc(new DateTime(2023, 1, 10)))
             {
                 DirectoryId = 6,
                 UserId = 3
             },
-            new Directories("Backups", new DateTime(2023, 1, 10))
+            new Directories("Backups", ToUtc(new DateTime(2023, 1, 10)))
             {
                 DirectoryId = 7,
                 UserId = 4
@@ -61,60 +64,60 @@ namespace DriveApp.Info.Seeds
             });
 
             builder.Entity<Files>().HasData(
-                 new Files("Resume.pdf", new DateTime(2023, 1, 10)) { FileId = 1 },
-                 new Files("VacationPhoto.jpg", new DateTime(2023, 2, 15)) { FileId = 2 },
-                 new Files("ProjectPlan.docx", new DateTime(2023, 3, 5)) { FileId = 3 },
-                 new Files("MusicTrack.mp3", new DateTime(2023, 4, 20)) { FileId = 4 },
-                 new Files("VideoClip.mp4", new DateTime(2023, 5, 25)) { FileId = 5 },
-                 new Files("Presentation.pptx", new DateTime(2023, 6, 30)) { FileId = 6 },
-                 new Files("Backup.zip", new DateTime(2023, 7, 10)) { FileId = 7 },
-                 new Files("Archive.tar.gz", new DateTime(2023, 8, 15)) { FileId = 8 }
+                 new Files("Resume.pdf", ToUtc(new DateTime(2023, 1, 10))) { FileId = 1 },
+                 new Files("VacationPhoto.jpg", ToUtc(new DateTime(2023, 2, 15))) { FileId = 2 },
+                 new Files("ProjectPlan.docx", ToUtc(new DateTime(2023, 3, 5))) { FileId = 3 },
+                 new Files("MusicTrack.mp3", ToUtc(new DateTime(2023, 4, 20))) { FileId = 4 },
+                 new Files("VideoClip.mp4", ToUtc(new DateTime(2023, 5, 25))) { FileId = 5 },
+                 new Files("Presentation.pptx", ToUtc(new DateTime(2023, 6, 30))) { FileId = 6 },
+                 new Files("Backup.zip", ToUtc(new DateTime(2023, 7, 10))) { FileId = 7 },
+                 new Files("Archive.tar.gz", ToUtc(new DateTime(2023, 8, 15))) { FileId = 8 }
              );
 
             builder.Entity<Comments>().HasData(
-            new Comments("Great job on this document!", new DateTime(2023, 1, 12))
+            new Comments("Great job on this document!", ToUtc(new DateTime(2023, 1, 12)))
             {
                 CommentId = 1,
                 UserId = 1,
                 FileId = 1
             },
-            new Comments("Can we improve the formatting?", new DateTime(2023, 2, 18))
+            new Comments("Can we improve the formatting?", ToUtc(new DateTime(2023, 2, 18)))
             {
                 CommentId = 2,
                 UserId = 2,
                 FileId = 2
             },
-            new Comments("This section is unclear, please revise.", new DateTime(2023, 3, 22))
+            new Comments("This section is unclear, please revise.", ToUtc(new DateTime(2023, 3, 22)))
             {
                 CommentId = 3,
                 UserId = 1,
                 FileId = 3
             },
-            new Comments("Awesome photo, very well taken!", new DateTime(2023, 4, 5))
+            new Comments("Awesome photo, very well taken!", ToUtc(new DateTime(2023, 4, 5)))
             {
                 CommentId = 4,
                 UserId = 3,
                 FileId = 4
             },
-            new Comments("Add more details about the project timeline.", new DateTime(2023, 5, 14))
+            new Comments("Add more details about the project timeline.", ToUtc(new DateTime(2023, 5, 14)))
             {
                 CommentId = 5,
                 UserId = 2,
                 FileId = 5
             },
-            new Comments("The video quality is amazing!", new DateTime(2023, 6, 7))
+            new Comments("The video quality is amazing!", ToUtc(new DateTime(2023, 6, 7)))
             {
                 CommentId = 6,
                 UserId = 4,
                 FileId = 6
             },
-            new Comments("Consider compressing this file further.", new DateTime(2023, 7, 29))
+            new Comments("Consider compressing this file further.", ToUtc(new DateTime(2023, 7, 29)))
             {
                 CommentId = 7,
                 UserId = 3,
                 FileId = 7
             },
-            new Comments("This archive is missing some files.", new DateTime(2023, 8, 21))
+            new Comments("This archive is missing some files.", ToUtc(new DateTime(2023, 8, 21)))
             {
                 CommentId = 8,
                 UserId = 4,

@@ -8,15 +8,15 @@ namespace DriveApp.Data
     {
         public DriveAppContext CreateDbContext(string[] args)
         {
-            var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddXmlFile("app.config")
-                .Build();
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddXmlFile("app.config.xml", optional: false, reloadOnChange: true);
+
+            var config = builder.Build();
+
             config.Providers
                 .First()
-                .TryGet("connectionStrings:add:DriveApp:connectionStrings", out var connectionString);
-
-            Console.WriteLine(connectionString);
+                .TryGet("connectionStrings:add:DriveApp:connectionString", out var connectionString);
 
             var options = new DbContextOptionsBuilder<DriveAppContext>()
                 .UseNpgsql(connectionString)

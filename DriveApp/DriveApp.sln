@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveApp.Domain", "DriveApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveApp.Info", "DriveApp.Info\DriveApp.Info.csproj", "{B24C4044-17D4-4A51-BD4F-AC064822EAEE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveApp.Data", "DriveApp.Data\DriveApp.Data.csproj", "{7890884F-EA4D-41DE-9F1E-8414E1C44459}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B24C4044-17D4-4A51-BD4F-AC064822EAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24C4044-17D4-4A51-BD4F-AC064822EAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24C4044-17D4-4A51-BD4F-AC064822EAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7890884F-EA4D-41DE-9F1E-8414E1C44459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7890884F-EA4D-41DE-9F1E-8414E1C44459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7890884F-EA4D-41DE-9F1E-8414E1C44459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7890884F-EA4D-41DE-9F1E-8414E1C44459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DriveApp.Domain\DriveApp.Domain.csproj" />
     <ProjectReference Include="..\DriveApp.UI\DriveApp.UI.csproj" />
   </ItemGroup>
 

@@ -1185,28 +1185,12 @@
           "bin/placeholder/DriveApp.Domain.dll": {}
         }
       },
-      "DriveApp.Info/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "DriveApp.UI": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "9.0.0",
-          "Microsoft.Extensions.Configuration.Xml": "9.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2"
-        },
-        "compile": {
-          "bin/placeholder/DriveApp.Info.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DriveApp.Info.dll": {}
-        }
-      },
       "DriveApp.UI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DriveApp.Domain": "1.0.0",
-          "DriveApp.Info": "1.0.0"
+          "DriveApp.Data": "1.0.0",
+          "DriveApp.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DriveApp.UI.dll": {}
@@ -3456,11 +3440,6 @@
       "path": "../DriveApp.Domain/DriveApp.Domain.csproj",
       "msbuildProject": "../DriveApp.Domain/DriveApp.Domain.csproj"
     },
-    "DriveApp.Info/1.0.0": {
-      "type": "project",
-      "path": "../DriveApp.Info/DriveApp.Info.csproj",
-      "msbuildProject": "../DriveApp.Info/DriveApp.Info.csproj"
-    },
     "DriveApp.UI/1.0.0": {
       "type": "project",
       "path": "../DriveApp.UI/DriveApp.UI.csproj",
@@ -3469,7 +3448,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DriveApp.Domain >= 1.0.0",
       "DriveApp.UI >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
@@ -3504,9 +3482,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj"
-            },
             "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj": {
               "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj"
             }
@@ -3571,8 +3546,8 @@
     {
       "code": "NU1108",
       "level": "Error",
-      "message": "Cycle detected. \r\n  DriveApp.Data -> DriveApp.UI -> DriveApp.Info -> DriveApp.UI.",
-      "libraryId": "DriveApp.UI",
+      "message": "Cycle detected. \r\n  DriveApp.Data -> DriveApp.UI -> DriveApp.Data.",
+      "libraryId": "DriveApp.Data",
       "targetGraphs": [
         "net8.0"
       ]

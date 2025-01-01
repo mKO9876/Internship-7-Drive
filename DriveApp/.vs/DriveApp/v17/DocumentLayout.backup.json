@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.ui\\driveapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|solutionrelative:driveapp.ui\\driveapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B24C4044-17D4-4A51-BD4F-AC064822EAEE}|DriveApp.Info\\DriveApp.Info.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.info\\driveapp.info.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B24C4044-17D4-4A51-BD4F-AC064822EAEE}|DriveApp.Info\\DriveApp.Info.csproj|solutionrelative:driveapp.info\\driveapp.info.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DriveApp.UI",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj",
-              "RelativeDocumentMoniker": "DriveApp.UI\\DriveApp.UI.csproj",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj",
-              "RelativeToolTip": "DriveApp.UI\\DriveApp.UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-01T17:40:26.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DriveApp.Info",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Info\\DriveApp.Info.csproj",
-              "RelativeDocumentMoniker": "DriveApp.Info\\DriveApp.Info.csproj",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Info\\DriveApp.Info.csproj",
-              "RelativeToolTip": "DriveApp.Info\\DriveApp.Info.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-01T17:37:15.355Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

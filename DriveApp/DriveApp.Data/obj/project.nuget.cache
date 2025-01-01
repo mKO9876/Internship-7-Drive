@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rhNqpOV3WyE=",
+  "dgSpecHash": "85jum1P2hdE=",
   "success": false,
   "projectFilePath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Data\\DriveApp.Data.csproj",
   "expectedPackageFiles": [
@@ -63,8 +63,8 @@
     {
       "code": "NU1108",
       "level": "Error",
-      "message": "Cycle detected. \r\n  DriveApp.Data -> DriveApp.UI -> DriveApp.Info -> DriveApp.UI.",
-      "libraryId": "DriveApp.UI",
+      "message": "Cycle detected. \r\n  DriveApp.Data -> DriveApp.UI -> DriveApp.Data.",
+      "libraryId": "DriveApp.Data",
       "targetGraphs": [
         "net8.0"
       ]

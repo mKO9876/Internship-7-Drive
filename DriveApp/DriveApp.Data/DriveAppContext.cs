@@ -1,7 +1,7 @@
-﻿using DriveApp.Info.Entities.Models;
-using DriveApp.Info.Seeds;
+﻿using DriveApp.Data.Entities.Models;
+using DriveApp.Data.Seeds;
 using Microsoft.EntityFrameworkCore;
-namespace DriveApp.Info
+namespace DriveApp.Data
 {
     public class DriveAppContext : DbContext
     {
@@ -21,6 +21,26 @@ namespace DriveApp.Info
             modelBuilder.Entity<Directories>().HasKey(c => c.DirectoryId);
             modelBuilder.Entity<Files>().HasKey(c => c.FileId);
             modelBuilder.Entity<Users>().HasKey(c => c.UserId);
+
+            modelBuilder.Entity<Directories>()
+                .Property(d => d.CreatedDate)
+                .HasConversion(
+                    v => v,
+                    v => DateTime.SpecifyKind(v, DateTimeKind.Utc));
+
+            modelBuilder.Entity<Files>()
+                .Property(d => d.LastChanged)
+                .HasConversion(
+                    v => v,
+                    v => DateTime.SpecifyKind(v, DateTimeKind.Utc));
+
+            modelBuilder.Entity<Comments>()
+                .Property(d => d.CommentingDate)
+                .HasConversion(
+                    v => v,
+                    v => DateTime.SpecifyKind(v, DateTimeKind.Utc));
+
+
 
             modelBuilder.Entity<Comments>()
             .HasOne(c => c.User)
