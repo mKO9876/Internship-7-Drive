@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.ui\\driveapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|solutionrelative:driveapp.ui\\driveapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5D9C16-734D-423C-ADF2-D3710CBD684D}|DriveApp.Data\\DriveApp.Data.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.data\\driveappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5D9C16-734D-423C-ADF2-D3710CBD684D}|DriveApp.Data\\DriveApp.Data.csproj|solutionrelative:driveapp.data\\driveappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5D9C16-734D-423C-ADF2-D3710CBD684D}|DriveApp.Data\\DriveApp.Data.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.data\\driveappcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5D9C16-734D-423C-ADF2-D3710CBD684D}|DriveApp.Data\\DriveApp.Data.csproj|solutionrelative:driveapp.data\\driveappcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.ui\\app.config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|solutionrelative:driveapp.ui\\app.config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|c:\\users\\marta\\documents\\3. dump\\07\\internship-7-drive\\driveapp\\driveapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{984D6D4D-A5A6-4397-A7C4-D7A4ADB9E0ED}|DriveApp.UI\\DriveApp.UI.csproj|solutionrelative:driveapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,64 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DriveApp.UI",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj",
-              "RelativeDocumentMoniker": "DriveApp.UI\\DriveApp.UI.csproj",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj",
-              "RelativeToolTip": "DriveApp.UI\\DriveApp.UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-01T15:43:46.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DriveAppContext.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Data\\DriveAppContext.cs",
-              "RelativeDocumentMoniker": "DriveApp.Data\\DriveAppContext.cs",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Data\\DriveAppContext.cs",
-              "RelativeToolTip": "DriveApp.Data\\DriveAppContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwBsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T15:33:25.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DriveAppContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Data\\DriveAppContextFactory.cs",
-              "RelativeDocumentMoniker": "DriveApp.Data\\DriveAppContextFactory.cs",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Data\\DriveAppContextFactory.cs",
-              "RelativeToolTip": "DriveApp.Data\\DriveAppContextFactory.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBAAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T15:33:08.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.config.xml",
-              "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\app.config.xml",
-              "RelativeDocumentMoniker": "DriveApp.UI\\app.config.xml",
-              "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\app.config.xml",
-              "RelativeToolTip": "DriveApp.UI\\app.config.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-01-01T15:35:55.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\Program.cs",
               "RelativeDocumentMoniker": "DriveApp.UI\\Program.cs",
               "ToolTip": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\Program.cs",
               "RelativeToolTip": "DriveApp.UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T14:20:10.803Z",
               "EditorCaption": ""

@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj": {
                 "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj"
+              },
+              "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj"
               }
             }
           }
@@ -128,6 +131,78 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj",
+        "projectName": "DriveApp.UI",
+        "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj",
+        "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

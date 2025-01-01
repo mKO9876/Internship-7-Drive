@@ -1184,6 +1184,19 @@
         "runtime": {
           "bin/placeholder/DriveApp.Domain.dll": {}
         }
+      },
+      "DriveApp.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DriveApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DriveApp.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DriveApp.UI.dll": {}
+        }
       }
     }
   },
@@ -3425,11 +3438,17 @@
       "type": "project",
       "path": "../DriveApp.Domain/DriveApp.Domain.csproj",
       "msbuildProject": "../DriveApp.Domain/DriveApp.Domain.csproj"
+    },
+    "DriveApp.UI/1.0.0": {
+      "type": "project",
+      "path": "../DriveApp.UI/DriveApp.UI.csproj",
+      "msbuildProject": "../DriveApp.UI/DriveApp.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "DriveApp.Domain >= 1.0.0",
+      "DriveApp.UI >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.Extensions.Configuration.Xml >= 9.0.0",
@@ -3465,6 +3484,9 @@
           "projectReferences": {
             "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj": {
               "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.Domain\\DriveApp.Domain.csproj"
+            },
+            "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj": {
+              "projectPath": "C:\\Users\\marta\\Documents\\3. DUMP\\07\\Internship-7-Drive\\DriveApp\\DriveApp.UI\\DriveApp.UI.csproj"
             }
           }
         }
