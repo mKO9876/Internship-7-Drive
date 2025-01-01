@@ -1,6 +1,6 @@
-﻿using DriveApp.Data.Entities.Models;
+﻿using DriveApp.Info.Entities.Models;
 using Microsoft.EntityFrameworkCore;
-namespace DriveApp.Data.Seeds
+namespace DriveApp.Info.Seeds
 {
 
     public static class DatabaseSeeder

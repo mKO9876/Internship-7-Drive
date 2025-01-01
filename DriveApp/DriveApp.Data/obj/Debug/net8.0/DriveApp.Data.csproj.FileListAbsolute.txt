@@ -21,3 +21,5 @@ C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Data\bi
 C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Data\bin\Debug\net8.0\DriveApp.Domain.pdb
 C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Data\bin\Debug\net8.0\DriveApp.UI.pdb
 C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Data\obj\Debug\net8.0\DriveApp.8CD940A9.Up2Date
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Data\bin\Debug\net8.0\DriveApp.Info.dll
+C:\Users\marta\Documents\3. DUMP\07\Internship-7-Drive\DriveApp\DriveApp.Data\bin\Debug\net8.0\DriveApp.Info.pdb

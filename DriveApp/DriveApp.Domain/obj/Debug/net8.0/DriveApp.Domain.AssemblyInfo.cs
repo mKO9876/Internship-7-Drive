@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b985c88dd109e8cc209a61572a7a527fe99baddc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+120842edaf2a524c6f2830e4e0b62c9fdaf309b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

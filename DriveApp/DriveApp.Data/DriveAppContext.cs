@@ -1,7 +1,7 @@
-﻿using DriveApp.Data.Entities.Models;
-using DriveApp.Data.Seeds;
+﻿using DriveApp.Info.Entities.Models;
+using DriveApp.Info.Seeds;
 using Microsoft.EntityFrameworkCore;
-namespace DriveApp.Data
+namespace DriveApp.Info
 {
     public class DriveAppContext : DbContext
     {

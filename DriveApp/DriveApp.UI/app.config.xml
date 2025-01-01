@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" ?>
 <configuration>
 	<connectionStrings>
-		<add name="DriveApp" connectionString="Server=127.0.0.1;Port=5432;Database=DriveDemo;Username=postgres;Password=Password28" />
+		<add name="DriveApp" connectionString="Server=127.0.0.1;Port=5432;Database=DriveAppDb;User Id=postgres;Password=Password28;" providerName="Npgsql" />
 	</connectionStrings>
 </configuration>

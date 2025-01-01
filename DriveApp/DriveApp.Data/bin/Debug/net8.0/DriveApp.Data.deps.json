@@ -789,7 +789,25 @@
           }
         }
       },
+      "DriveApp.Info/1.0.0": {
+        "dependencies": {
+          "DriveApp.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.Extensions.Configuration.Xml": "9.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.2"
+        },
+        "runtime": {
+          "DriveApp.Info.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DriveApp.UI/1.0.0": {
+        "dependencies": {
+          "DriveApp.Domain": "1.0.0",
+          "DriveApp.Info": "1.0.0"
+        },
         "runtime": {
           "DriveApp.UI.dll": {
             "assemblyVersion": "1.0.0",
@@ -1184,6 +1202,11 @@
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
     "DriveApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DriveApp.Info/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
